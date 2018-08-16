@@ -1,4 +1,4 @@
-reqire 'pry'
+reqqire 'pry'
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
