@@ -43,5 +43,7 @@ def run
   puts("Please enter a command:")
   user_input = gets.chomp
   unless user_input == "exit"
+    puts("Please enter a command:")
+    user_input = gets.chomp
   end 
 end 
