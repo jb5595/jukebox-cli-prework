@@ -1,4 +1,3 @@
-require 'pry'
 
 songs = [
   "Phoenix - 1901",
@@ -29,7 +28,6 @@ end
 def play(songs)
   puts("Please enter a song name or number:")
   song_choice = gets.chomp
-  binding.pry
   if songs.include?(song_choice)
     puts "Playing #{song_choice}"
   elsif song_choice == (1..9)
