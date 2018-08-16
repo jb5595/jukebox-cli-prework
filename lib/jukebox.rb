@@ -51,7 +51,7 @@ def run
       play
     elsif user_input == "help"
       help  
-    elsif user_input = "exit"
+    elsif user_input == "exit"
       exit_jukebox
     end 
   end 
