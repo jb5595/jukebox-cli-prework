@@ -30,6 +30,7 @@ def play(songs)
   if songs.include?(song_choice)
     binding.pry
     puts "Playing #{song_choice}"
+  else if song_choice == (1..)
   else 
     puts("Invalid input, please try again")
   end 
